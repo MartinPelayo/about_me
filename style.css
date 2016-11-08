@@ -1,13 +1,6 @@
 body {
-  background-color: #FDD;
+  background-color: #D8EEEE;
 }
-main {
-  width: 500px;
-  margin: 0 auto;
-  background-color: rbg(255, 180, 180);
-}
-div {
-  background-color: rgb(255, 0, 0);
-  width: 250px;
-  height: 100px;
+li{
+  border: 1px solid black
 }
