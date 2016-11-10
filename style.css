@@ -1,6 +1,9 @@
 body {
   background-color: #D8EEEE;
 }
-li{
-  border: 1px solid black
+h1 {
+  font-family: Arial
+}
+li {
+  font-family: Arial
 }
