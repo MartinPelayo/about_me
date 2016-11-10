@@ -29,3 +29,36 @@ if (yesQuestion5 === 'yes'){
 }else{
   alert ('Alright, how about the carrot cake then.');
 }
+var keepLooping = true;
+while(keepLooping !== false){
+
+}
+
+for (var i = 0; i < 4; i++) {
+
+var answer = prompt ('Guess what number out of ten?');
+
+if (answer === '5'){
+alert ('Correct.');
+keepLooping = false;
+
+}else if (answer > '5'){
+ alert ('To low, guess again.')
+}else if (answer < '5'){
+alert ('To high, keep geussing.')
+}
+}
+
+var myArray = ['California,Oregon,Arizona,Texas'];
+for (var i = 0; i< 6; i++){
+  var answer = prompt ('Can you guess a states I lived in besides Washington?')
+  for (var j = 0; j<myArray.legnth; j++){
+    if (answer === myArray[j])
+      alert ('Correct');
+
+    }
+    else {
+      alert ('Geuss agian')
+    }
+  }
+}
