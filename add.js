@@ -1,10 +1,26 @@
 'use strict';
-// var yesQuestion1 = prompt ('Would you like a burrito?').toUpperCase();
-// if (yesQuestion1 === 'yes'){
-//   alert ('Splendid, would you like cheese on your burrito?');
-// }else{
-//   alert('Thank you come agian.');
-// }
+
+
+
+function yNqOne () {
+  var yesQuestion1 = prompt ('Would you like a burrito?').toUpperCase();
+  if (yesQuestion1 === 'yes'){
+    alert ('Splendid, would you like cheese on your burrito?');
+  }else{
+    alert('Thank you come agian.');
+  }
+}
+yNqOne();
+
+yNqTwo();
+
+yNqThree();
+
+yNqFour();
+
+yNqFive();
+
+
 // var yesQuestion2 = prompt ('Would you like hot sauce?').toUpperCase();
 // if (yesQuestion2 === 'yes'){
 //   alert ('All right my friend.');
@@ -29,6 +45,8 @@
 // }else{
 //   alert ('Alright, how about the carrot cake then.');
 // }
+
+
 // var keepLooping = true;
 // while(keepLooping !== false){
 //
@@ -53,9 +71,9 @@ var myArray = ['California, Oregon, Arizona, Texas']; // decare a global array w
 
 function guessState () {
   for ( var i = 0 ; i < 6; i++ ){
-    answer = prompt ('Can you guess a states I lived in besides Washington?');
+    var guessStateAnswer = prompt ('Can you guess a states I lived in besides Washington?');
     for (var j = 0; j < myArray.legnth; j++){
-      if (answer === myArray[j]){
+      if (guessStateAnswer === myArray[j]){
         alert ('Correct');
 
       }
