@@ -1,8 +1,13 @@
 body {
   background-color: #D8EEEE;
 }
-div.relativce {
-  positoin: relative
+
+h1 {
+  font-family: Arial
+}
+li {
+  font-family: Arial
+
 }
 .table {
   display: table;
