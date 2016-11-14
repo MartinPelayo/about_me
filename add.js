@@ -1,31 +1,41 @@
 'use strict';
-var yesQuestion1 = prompt ('Would you like a burrito?').toUpperCase();
-if (yesQuestion1 === 'yes'){
-  alert ('Splendid, would you like cheese on your burrito?');
+prompt ('Hello there, to make it more fun getting to know me I have made a guessing game aobut myslef. But before we start, what is your name?');
+alert ('Well nice to meet you. Lets get started.');
+
+var yesQuestion1 = prompt ('Where am I from?');
+if (yesQuestion1 === 'California'){
+  alert ('You are correct!');
 }else{
-  alert('Thank you come agian.');
+  alert('I am from California.');
 }
-var yesQuestion2 = prompt ('Would you like hot sauce?').toUpperCase();
-if (yesQuestion2 === 'yes'){
-  alert ('All right my friend.');
+
+var yesQuestion2 = prompt ('Where have I lived the past few year?');
+if (yesQuestion2 === 'Medford'){
+  alert ('Thats correct!.');
 }else{
-  alert ('Sorry, no hot suace no service.');
+  alert ('The answer is Medford.');
 }
-var yesQuestion3 = prompt ('Can I get you a cup of tea with that?').toUpperCase();
-if (yesQuestion3 === 'yes'){
-  alert ('Tea it is.');
+
+var yesQuestion3 = prompt ('Where do I plan on graduating from in the near future?');
+if (yesQuestion3 === 'CodeFellows'){
+  alert ('Correct!');
 }else{
-  alert ('Ok, no tea then.');
+  alert ('The answer is CodeFellows.');
 }
-var yesQuestion4 = prompt ('How about desert?').toUpperCase();
-if (yesQuestion4 === 'yes'){
-  alert ('Alright desert, great.');
+
+var yesQuestion4 = prompt ('What is my name?');
+if (yesQuestion4 === 'Martin Pelayo'){
+  alert ('That is corrct!');
 }else{
-  alert ('Ok, thats fine.');
+  alert ('Your geuss was close, the answer is Martin Pelyo');
 }
-var yesQuestion5 = prompt ('Would you like cheese cake then?').toUpperCase();
-if (yesQuestion5 === 'yes'){
-  alert ('You got it boss.');
+
+var yesQuestion5 = prompt ('Guess what town is depicted in the photo?');
+if (yesQuestion5 === 'Placerville'){
+  alert ('You are good at this and thanks for playing my guessing game!');
 }else{
-  alert ('Alright, how about the carrot cake then.');
+  alert ('The answer is Placerville., thanks for playing my guessing game!');
 }
+//I could remember if I was supposed to space my code like this.
+//Also, the email I got in regards to the lab submission mentioned my statements only registed as false.
+//However, when I ran the code in the browser it worked normally. I couldnt replicate the error.
